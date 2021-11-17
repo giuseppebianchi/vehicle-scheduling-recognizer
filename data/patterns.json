@@ -1,0 +1,2182 @@
+[
+  {
+    "id" : "1:6:0:01",
+    "desc" : "6 to Fonte Cerreto Funivia CTGS partenze bus (1:F00590)",
+    "routeId" : "1:6",
+    "routeName" : "6",
+    "trip_route" : [
+      "M6"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Fonte Cerreto Funivia CTGS partenze bus",
+    "busStopEndId" : "1:F00590"
+  },
+  {
+    "id" : "1:19:1:01",
+    "desc" : "19 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Vetoio Universita fronte Ospedale (1:D00680)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "M19",
+      "19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vetoio Universita fronte Ospedale",
+    "busStopStartId" : "1:D00680",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6:0:02",
+    "desc" : "6 to Progetto CASE Assergi (1:F01090)",
+    "routeId" : "1:6",
+    "routeName" : "6",
+    "trip_route" : [
+      "M6H"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vetoio Universita lato Ospedale",
+    "busStopStartId" : "1:D00670",
+    "busStopEnd" : "Progetto CASE Assergi",
+    "busStopEndId" : "1:F01090"
+  },
+  {
+    "id" : "1:19:1:04",
+    "desc" : "19 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:19:1:03",
+    "desc" : "19 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Viale Fiamme Gialle varco3 capolinea GDF (1:D00920)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopStartId" : "1:D00920",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:19:1:02",
+    "desc" : "19 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Piazza Rustici Coppito lato bar (1:I00080)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "M19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Rustici Coppito lato bar",
+    "busStopStartId" : "1:I00080",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6S:0:01",
+    "desc" : "6S to Piazza Paganica lato monumento SP103 (1:F00130) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6S"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:1:1:05",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Piazza Rustici Coppito lato bar (1:I00080)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Rustici Coppito lato bar",
+    "busStopStartId" : "1:I00080",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:06",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Viale Fiamme Gialle varco3 capolinea GDF (1:D00920) express",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1",
+      "1R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopStartId" : "1:D00920",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:07",
+    "desc" : "1 to Monteluco di Roio Facolta di Ingegneria (1:R00140)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Monteluco di Roio Facolta di Ingegneria",
+    "busStopEndId" : "1:R00140"
+  },
+  {
+    "id" : "1:6D:1:06",
+    "desc" : "6D to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Piazza Paganica fronte monumento SP103 (1:F00120) via SS17 lato bivio Via Collevernesco (1:C00520)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6D/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6D:1:05",
+    "desc" : "6D to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Progetto CASE Assergi (1:F01090) express",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6DI"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Progetto CASE Assergi",
+    "busStopStartId" : "1:F01090",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6D:1:04",
+    "desc" : "6D to L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:6D:1:03",
+    "desc" : "6D to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Piazza Paganica fronte monumento SP103 (1:F00120) via Via Collevernesco - lato Bazzano (1:C00550)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6D/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2U:1:02",
+    "desc" : "2U to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via Via Campo di Pile Aci Dompe (1:D00040)",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2UT"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6D:1:02",
+    "desc" : "6D to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Progetto CASE Assergi (1:F01090) via Progetto CASE Bazzano via De Andre 1. f. (1:F01200)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6DI"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Progetto CASE Assergi",
+    "busStopStartId" : "1:F01090",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2U:1:01",
+    "desc" : "2U to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) express",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2UT"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6D:1:01",
+    "desc" : "6D to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Fonte Cerreto Funivia CTGS partenze bus (1:F00590)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6DO"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Fonte Cerreto Funivia CTGS partenze bus",
+    "busStopStartId" : "1:F00590",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:7:0:01",
+    "desc" : "7 to Area piazza Morelli Filetto (1:F00380) from Piazza Paganica lato monumento SP103 (1:F00130) express",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica lato monumento SP103",
+    "busStopStartId" : "1:F00130",
+    "busStopEnd" : "Area piazza Morelli Filetto",
+    "busStopEndId" : "1:F00380"
+  },
+  {
+    "id" : "1:12:0:01",
+    "desc" : "12 to Via Casavecchia Prata Lucoli lato civ3 (1:H00175) from Via Campo di Pile Optimes (1:D00140)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Campo di Pile Optimes",
+    "busStopStartId" : "1:D00140",
+    "busStopEnd" : "Via Casavecchia Prata Lucoli lato civ3",
+    "busStopEndId" : "1:H00175"
+  },
+  {
+    "id" : "1:2U:1:03",
+    "desc" : "2U to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Viale Fiamme Gialle varco3 capolinea GDF (1:D00920)",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2UT"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopStartId" : "1:D00920",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:0:03",
+    "desc" : "12 to Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SS17 lato Hotel Amiternum (1:D00410)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopEndId" : "1:H00170"
+  },
+  {
+    "id" : "1:12:0:02",
+    "desc" : "12 to Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SS80 fronte Hotel Amiternum lato Caserma (1:D00840)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopEndId" : "1:H00170"
+  },
+  {
+    "id" : "1:12:0:04",
+    "desc" : "12 to Via Casavecchia Prata Lucoli lato civ3 (1:H00175) from TERMINALBUS STALLO BUS AMA 2 (1:A00002)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Casavecchia Prata Lucoli lato civ3",
+    "busStopEndId" : "1:H00175"
+  },
+  {
+    "id" : "1:15:0:08",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4421",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:15:0:07",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from Via Vetoio Universita fronte Ospedale (1:D00680)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vetoio Universita fronte Ospedale",
+    "busStopStartId" : "1:D00680",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:9:1:02",
+    "desc" : "9 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via dell'Aquila capolinea piazza Aragno (1:F00990) via Viale Gran Sasso lato Stadio Fattori (1:A00350)",
+    "routeId" : "1:9",
+    "routeName" : "9",
+    "trip_route" : [
+      "9",
+      "M9"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via dell'Aquila capolinea piazza Aragno",
+    "busStopStartId" : "1:F00990",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:15:0:06",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4406",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:9:1:01",
+    "desc" : "9 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via dell'Aquila capolinea piazza Aragno (1:F00990) via Via Moschino lato Piazza Bolivar (1:B00580)",
+    "routeId" : "1:9",
+    "routeName" : "9",
+    "trip_route" : [
+      "9"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via dell'Aquila capolinea piazza Aragno",
+    "busStopStartId" : "1:F00990",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:15:0:05",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4420",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:4:0:02",
+    "desc" : "4 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:4",
+    "routeName" : "4",
+    "trip_route" : [
+      "4L"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:7:0:03",
+    "desc" : "7 to Area piazza Morelli Filetto (1:F00380) from Piazza Paganica fronte monumento SP103 (1:F00120) via Via Onna lato Carabinieri Paganica (1:F01410)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "Area piazza Morelli Filetto",
+    "busStopEndId" : "1:F00380"
+  },
+  {
+    "id" : "1:15:0:04",
+    "desc" : "15 to str.com. s.vittorino piazza - mancante - (1:I00910)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "str.com. s.vittorino piazza - mancante -",
+    "busStopEndId" : "1:I00910"
+  },
+  {
+    "id" : "1:15:0:03",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4404",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:7:0:02",
+    "desc" : "7 to Area piazza Morelli Filetto (1:F00380) from Piazza Paganica lato monumento SP103 (1:F00130) via SS17 bis Camarda fronte Paese (1:F00470)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica lato monumento SP103",
+    "busStopStartId" : "1:F00130",
+    "busStopEnd" : "Area piazza Morelli Filetto",
+    "busStopEndId" : "1:F00380"
+  },
+  {
+    "id" : "1:4:0:01",
+    "desc" : "4 to Viale Fiamme Gialle varco3 capolinea GDF (1:D00920)",
+    "routeId" : "1:4",
+    "routeName" : "4",
+    "trip_route" : [
+      "4"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopEndId" : "1:D00920"
+  },
+  {
+    "id" : "1:15:0:02",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4414",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:7:0:05",
+    "desc" : "7 to Area piazza Morelli Filetto (1:F00380) from TERMINALBUS STALLO BUS AMA 2 (1:A00002)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "7"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Area piazza Morelli Filetto",
+    "busStopEndId" : "1:F00380"
+  },
+  {
+    "id" : "1:15:0:01",
+    "desc" : "15 to Via Vallicella Capolinea Arischia Ater (1:I00670) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4419",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopEndId" : "1:I00670"
+  },
+  {
+    "id" : "1:7:0:04",
+    "desc" : "7 to Area piazza Morelli Filetto (1:F00380) from Piazza Paganica fronte monumento SP103 (1:F00120) express",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "Area piazza Morelli Filetto",
+    "busStopEndId" : "1:F00380"
+  },
+  {
+    "id" : "1:2:1:03",
+    "desc" : "2 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from SS17 Deposito Ama Spa lato Ama (1:H01150)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS17 Deposito Ama Spa lato Ama",
+    "busStopStartId" : "1:H01150",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2:1:02",
+    "desc" : "2 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via Via Saragat lato centro c.le L'Aquilone (1:D00110)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2:1:04",
+    "desc" : "2 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Centi Colella piazzale (1:D00525)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Centi Colella piazzale",
+    "busStopStartId" : "1:D00525",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16:1:03",
+    "desc" : "16 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Stazione Fossa Necropoli fronte Map (1:G01480)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione Fossa Necropoli fronte Map",
+    "busStopStartId" : "1:G01480",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16:1:04",
+    "desc" : "16 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from MAP Fossa - Necropoli Vestina (1:G01360) via Via S.Nicola Monticchio direzione Ater (1:G00500)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "MAP Fossa - Necropoli Vestina",
+    "busStopStartId" : "1:G01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2:1:01",
+    "desc" : "2 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via Via Mulino di Pile lato Spaziani (1:D00360)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2PT"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16:1:05",
+    "desc" : "16 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Di Valle dir. Cavalletto Monticchio (1:G00530)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Di Valle dir. Cavalletto Monticchio",
+    "busStopStartId" : "1:G00530",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:0:01",
+    "desc" : "11 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SP35 SR615 Roio Colle fronte Annunziata (1:R00380)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:3:0:01",
+    "desc" : "3 to via A.Arischia lato via Picasso fr. Flem (1:I01180)",
+    "routeId" : "1:3",
+    "routeName" : "3",
+    "trip_route" : [
+      "3A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "via A.Arischia lato via Picasso fr. Flem",
+    "busStopEndId" : "1:I01180"
+  },
+  {
+    "id" : "1:11:0:02",
+    "desc" : "11 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SS615 C.da Cerri fronte Monteluco (1:R00035)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:16:1:01",
+    "desc" : "16 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from MAP Fossa - Necropoli Vestina (1:G01360) express",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "MAP Fossa - Necropoli Vestina",
+    "busStopStartId" : "1:G01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:0:03",
+    "desc" : "11 to SP35 SR615 Roio Colle lato piazza (1:R00400)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "SP35 SR615 Roio Colle lato piazza",
+    "busStopEndId" : "1:R00400"
+  },
+  {
+    "id" : "1:16:1:02",
+    "desc" : "16 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Stazione Fossa Necropoli lato Map (1:G01350)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione Fossa Necropoli lato Map",
+    "busStopStartId" : "1:G01350",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:0:04",
+    "desc" : "11 to Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11T"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Stazione ferroviaria - Piazzale",
+    "busStopEndId" : "1:D00230"
+  },
+  {
+    "id" : "1:3:0:02",
+    "desc" : "3 to Via Vetoio Universita lato Ospedale (1:D00670)",
+    "routeId" : "1:3",
+    "routeName" : "3",
+    "trip_route" : [
+      "3"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Via Vetoio Universita lato Ospedale",
+    "busStopEndId" : "1:D00670"
+  },
+  {
+    "id" : "1:8:1:01",
+    "desc" : "8 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000)",
+    "routeId" : "1:8",
+    "routeName" : "8",
+    "trip_route" : [
+      "M8"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Fontegrossa Capolinea",
+    "busStopStartId" : "1:B00850",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6S:0:02",
+    "desc" : "6S to Piazza Paganica lato monumento SP103 (1:F00130) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via str.comun. S.elia chiesa (1:C00600)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6S"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:9:0:02",
+    "desc" : "9 to Via dell'Aquila capolinea piazza Aragno (1:F00990) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Viale Gran Sasso lato Stadio Fattori (1:A00350)",
+    "routeId" : "1:9",
+    "routeName" : "9",
+    "trip_route" : [
+      "9",
+      "M9"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via dell'Aquila capolinea piazza Aragno",
+    "busStopEndId" : "1:F00990"
+  },
+  {
+    "id" : "1:6S:0:03",
+    "desc" : "6S to Fonte Cerreto Funivia CTGS arrivi bus (1:F00595) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via str.comun. S.elia chiesa (1:C00600)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SO"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Fonte Cerreto Funivia CTGS arrivi bus",
+    "busStopEndId" : "1:F00595"
+  },
+  {
+    "id" : "1:6S:0:04",
+    "desc" : "6S to Piazza Paganica lato monumento SP103 (1:F00130) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SS17 fronte chiesa Sant'Elia (1:C00470)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6S"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:9:0:01",
+    "desc" : "9 to Via dell'Aquila capolinea piazza Aragno (1:F00990) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) express",
+    "routeId" : "1:9",
+    "routeName" : "9",
+    "trip_route" : [
+      "9"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via dell'Aquila capolinea piazza Aragno",
+    "busStopEndId" : "1:F00990"
+  },
+  {
+    "id" : "1:6S:0:05",
+    "desc" : "6S to Fonte Cerreto Funivia CTGS arrivi bus (1:F00595) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4604",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SO"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Fonte Cerreto Funivia CTGS arrivi bus",
+    "busStopEndId" : "1:F00595"
+  },
+  {
+    "id" : "1:6S:0:06",
+    "desc" : "6S to Fonte Cerreto Funivia CTGS arrivi bus (1:F00595) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4316",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SO"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Fonte Cerreto Funivia CTGS arrivi bus",
+    "busStopEndId" : "1:F00595"
+  },
+  {
+    "id" : "1:6S:0:07",
+    "desc" : "6S to Progetto CASE Assergi (1:F01090)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SI"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Progetto CASE Assergi",
+    "busStopEndId" : "1:F01090"
+  },
+  {
+    "id" : "1:12A:0:05",
+    "desc" : "12A to Via Piagge Foce Sassa 4. ferm. Capolinea (1:H00750) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4748",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Piagge Foce Sassa 4. ferm. Capolinea",
+    "busStopEndId" : "1:H00750"
+  },
+  {
+    "id" : "1:12A:0:04",
+    "desc" : "12A to Via Piagge Foce Sassa 4. ferm. Capolinea (1:H00750) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4746",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Piagge Foce Sassa 4. ferm. Capolinea",
+    "busStopEndId" : "1:H00750"
+  },
+  {
+    "id" : "1:12A:0:03",
+    "desc" : "12A to Via Piagge Foce Sassa 4. ferm. Capolinea (1:H00750) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via SS80 fronte Hotel Amiternum lato Caserma (1:D00840)",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Piagge Foce Sassa 4. ferm. Capolinea",
+    "busStopEndId" : "1:H00750"
+  },
+  {
+    "id" : "1:12A:0:02",
+    "desc" : "12A to Via Piagge Foce Sassa 4. ferm. Capolinea (1:H00750) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Centi Colella piazzale (1:D00525)",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Piagge Foce Sassa 4. ferm. Capolinea",
+    "busStopEndId" : "1:H00750"
+  },
+  {
+    "id" : "1:16A:1:01",
+    "desc" : "16A to Piazza Paganica lato monumento SP103 (1:F00130)",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "M16B"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Map San Gregorio 1. senso orario",
+    "busStopStartId" : "1:G01440",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:12A:0:01",
+    "desc" : "12A to Via Piagge Foce Sassa 4. ferm. Capolinea (1:H00750) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4754",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Piagge Foce Sassa 4. ferm. Capolinea",
+    "busStopEndId" : "1:H00750"
+  },
+  {
+    "id" : "1:16A:1:03",
+    "desc" : "16A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from SC Villa di Mezzo Picenze capolinea (1:G00310) via Via Collevernesco - lato Bazzano (1:C00550)",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "16A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SC Villa di Mezzo Picenze capolinea",
+    "busStopStartId" : "1:G00310",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16A:1:02",
+    "desc" : "16A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from SC Villa di Mezzo Picenze capolinea (1:G00310) via SS17 lato bivio Via Collevernesco (1:C00520)",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "16A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SC Villa di Mezzo Picenze capolinea",
+    "busStopStartId" : "1:G00310",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:5:1:01",
+    "desc" : "5 to Progetto CASE Gignano (1:B01020)",
+    "routeId" : "1:5",
+    "routeName" : "5",
+    "trip_route" : [
+      "M5"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Valle d' Aosta Marche scuole Gignano",
+    "busStopStartId" : "1:B01100",
+    "busStopEnd" : "Progetto CASE Gignano",
+    "busStopEndId" : "1:B01020"
+  },
+  {
+    "id" : "1:5:1:02",
+    "desc" : "5 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Valle d' Aosta Marche scuole Gignano (1:B01100)",
+    "routeId" : "1:5",
+    "routeName" : "5",
+    "trip_route" : [
+      "M5"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Valle d' Aosta Marche scuole Gignano",
+    "busStopStartId" : "1:B01100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6S:1:01",
+    "desc" : "6S to Via Falcone lato Reiss Romoli SP33 (1:D00550)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SI"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS17 bis Assergi fronte svincolo A24",
+    "busStopStartId" : "1:F00560",
+    "busStopEnd" : "Via Falcone lato Reiss Romoli SP33",
+    "busStopEndId" : "1:D00550"
+  },
+  {
+    "id" : "1:5:1:03",
+    "desc" : "5 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Gignano piazza (1:B00330)",
+    "routeId" : "1:5",
+    "routeName" : "5",
+    "trip_route" : [
+      "5"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Gignano piazza",
+    "busStopStartId" : "1:B00330",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6S:1:02",
+    "desc" : "6S to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Fonte Cerreto Funivia CTGS partenze bus (1:F00590)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6SO"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Fonte Cerreto Funivia CTGS partenze bus",
+    "busStopStartId" : "1:F00590",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:0:04",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Monteluco di Roio Facolta di Ingegneria (1:R00140)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Monteluco di Roio Facolta di Ingegneria",
+    "busStopStartId" : "1:R00140",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:0:05",
+    "desc" : "1 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100) from TERMINALBUS STALLO BUS AMA 1 (1:A00001)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:1:0:06",
+    "desc" : "1 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100) from Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:6D:0:03",
+    "desc" : "6D to Piazza Paganica fronte monumento SP103 (1:F00120) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "Piazza Paganica fronte monumento SP103",
+    "busStopEndId" : "1:F00120"
+  },
+  {
+    "id" : "1:6D:0:02",
+    "desc" : "6D to Piazza Paganica fronte monumento SP103 (1:F00120) from TERMINALBUS STALLO BUS AMA 2 (1:A00002)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Piazza Paganica fronte monumento SP103",
+    "busStopEndId" : "1:F00120"
+  },
+  {
+    "id" : "1:6D:0:01",
+    "desc" : "6D to Progetto CASE Assergi (1:F01090)",
+    "routeId" : "1:6D",
+    "routeName" : "6D",
+    "trip_route" : [
+      "6DI"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Progetto CASE Assergi",
+    "busStopEndId" : "1:F01090"
+  },
+  {
+    "id" : "1:2U:0:01",
+    "desc" : "2U to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from Stazione ferroviaria - Piazzale (1:D00230) express",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2U/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:2U:0:02",
+    "desc" : "2U to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from Stazione ferroviaria - Piazzale (1:D00230) via Via Farroni Variante Pile lato Carabba (1:D01090)",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2U/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:12:1:02",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) like trip 1_4789",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:1:01",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) like trip 1_4788",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:2U:0:03",
+    "desc" : "2U to Viale Fiamme Gialle varco3 capolinea GDF (1:D00920)",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "M2U",
+      "2UG"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopEndId" : "1:D00920"
+  },
+  {
+    "id" : "1:2U:0:04",
+    "desc" : "2U to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from TERMINALBUS STALLO BUS AMA 1 (1:A00001)",
+    "routeId" : "1:2U",
+    "routeName" : "2U",
+    "trip_route" : [
+      "2U"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:12:1:04",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) via via delle Ville dir. Casavecchia Lucoli (1:H00130)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:1:03",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from SS17 Deposito Ama Spa lato Ama (1:H01150)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS17 Deposito Ama Spa lato Ama",
+    "busStopStartId" : "1:H01150",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:1:06",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:1:05",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) like trip 1_4794",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:4:1:01",
+    "desc" : "4 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000)",
+    "routeId" : "1:4",
+    "routeName" : "4",
+    "trip_route" : [
+      "4"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopStartId" : "1:D00920",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6B:0:02",
+    "desc" : "6B to Piazza Paganica fronte monumento SP103 (1:F00120) from Piazza Paganica fronte monumento SP103 (1:F00120) express",
+    "routeId" : "1:6B",
+    "routeName" : "6B",
+    "trip_route" : [
+      "M6B"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "Piazza Paganica fronte monumento SP103",
+    "busStopEndId" : "1:F00120"
+  },
+  {
+    "id" : "1:6B:0:01",
+    "desc" : "6B to Piazza Paganica fronte monumento SP103 (1:F00120) from Piazza Paganica fronte monumento SP103 (1:F00120) via Via Onna Bazzano lato distributore gpl (1:F01370)",
+    "routeId" : "1:6B",
+    "routeName" : "6B",
+    "trip_route" : [
+      "M6B"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "Piazza Paganica fronte monumento SP103",
+    "busStopEndId" : "1:F00120"
+  },
+  {
+    "id" : "1:6:1:01",
+    "desc" : "6 to Via Vetoio Universita fronte Ospedale (1:D00680)",
+    "routeId" : "1:6",
+    "routeName" : "6",
+    "trip_route" : [
+      "M6H"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica lato monumento SP103",
+    "busStopStartId" : "1:F00130",
+    "busStopEnd" : "Via Vetoio Universita fronte Ospedale",
+    "busStopEndId" : "1:D00680"
+  },
+  {
+    "id" : "1:11:1:02",
+    "desc" : "11 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Vetoio Universita fronte Ospedale (1:D00680)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "11"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vetoio Universita fronte Ospedale",
+    "busStopStartId" : "1:D00680",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6:1:03",
+    "desc" : "6 to Piazza Paganica lato monumento SP103 (1:F00130)",
+    "routeId" : "1:6",
+    "routeName" : "6",
+    "trip_route" : [
+      "M6/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Progetto CASE Assergi",
+    "busStopStartId" : "1:F01090",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:12:1:08",
+    "desc" : "12 to Via Campo di Pile Confindustria (1:D00150)",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "Via Campo di Pile Confindustria",
+    "busStopEndId" : "1:D00150"
+  },
+  {
+    "id" : "1:3:1:01",
+    "desc" : "3 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from via A.Arischia lato via Curie / Fleming (1:I01170)",
+    "routeId" : "1:3",
+    "routeName" : "3",
+    "trip_route" : [
+      "3A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "via A.Arischia lato via Curie / Fleming",
+    "busStopStartId" : "1:I01170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:3:1:02",
+    "desc" : "3 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Vetoio Universita fronte Ospedale (1:D00680)",
+    "routeId" : "1:3",
+    "routeName" : "3",
+    "trip_route" : [
+      "3",
+      "3R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vetoio Universita fronte Ospedale",
+    "busStopStartId" : "1:D00680",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:1:03",
+    "desc" : "11 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via Corso Umberto Roio Poggio fronte v.poste (1:R00160)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12:1:07",
+    "desc" : "12 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Casavecchia Prata Lucoli fronte civ3 (1:H00170) like trip 1_4795",
+    "routeId" : "1:12",
+    "routeName" : "12",
+    "trip_route" : [
+      "12"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Casavecchia Prata Lucoli fronte civ3",
+    "busStopStartId" : "1:H00170",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:6:1:02",
+    "desc" : "6 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000)",
+    "routeId" : "1:6",
+    "routeName" : "6",
+    "trip_route" : [
+      "M6"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Fonte Cerreto Funivia CTGS partenze bus",
+    "busStopStartId" : "1:F00590",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:1:04",
+    "desc" : "11 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from SP35 SR615 Roio Colle lato piazza (1:R00400)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "11"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SP35 SR615 Roio Colle lato piazza",
+    "busStopStartId" : "1:R00400",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:11:1:05",
+    "desc" : "11 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:14D:0:04",
+    "desc" : "14D to SS80 dir. P.CASE Cese Preturo fro. paese (1:I00250) from SS80 dir. P.CASE Cese Preturo fro. paese (1:I00250) via SS80 dir Via Amiternina l. Via Peschiera (1:I00390)",
+    "routeId" : "1:14D",
+    "routeName" : "14D",
+    "trip_route" : [
+      "14D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopStartId" : "1:I00250",
+    "busStopEnd" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopEndId" : "1:I00250"
+  },
+  {
+    "id" : "1:11:1:01",
+    "desc" : "11 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via SS615 C.da Cerri coop.ve lato Monteluco (1:R00010)",
+    "routeId" : "1:11",
+    "routeName" : "11",
+    "trip_route" : [
+      "M11R"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:14D:0:02",
+    "desc" : "14D to SS17 Deposito Ama Spa fronte Ama (1:H01140)",
+    "routeId" : "1:14D",
+    "routeName" : "14D",
+    "trip_route" : [
+      "14D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopStartId" : "1:I00250",
+    "busStopEnd" : "SS17 Deposito Ama Spa fronte Ama",
+    "busStopEndId" : "1:H01140"
+  },
+  {
+    "id" : "1:14D:0:03",
+    "desc" : "14D to SS80 dir. P.CASE Cese Preturo fro. paese (1:I00250) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:14D",
+    "routeName" : "14D",
+    "trip_route" : [
+      "14D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopEndId" : "1:I00250"
+  },
+  {
+    "id" : "1:14D:0:01",
+    "desc" : "14D to SS80 dir. P.CASE Cese Preturo fro. paese (1:I00250) from SS80 dir. P.CASE Cese Preturo fro. paese (1:I00250) via Via Manzoni lato Via Madonna d. Grazie (1:E00890)",
+    "routeId" : "1:14D",
+    "routeName" : "14D",
+    "trip_route" : [
+      "14D"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopStartId" : "1:I00250",
+    "busStopEnd" : "SS80 dir. P.CASE Cese Preturo fro. paese",
+    "busStopEndId" : "1:I00250"
+  },
+  {
+    "id" : "1:1:0:01",
+    "desc" : "1 to Viale Fiamme Gialle varco3 capolinea GDF (1:D00920) from TERMINALBUS STALLO BUS AMA 1 (1:A00001) express",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1G"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopEndId" : "1:D00920"
+  },
+  {
+    "id" : "1:1:0:02",
+    "desc" : "1 to Viale Fiamme Gialle varco3 capolinea GDF (1:D00920) from TERMINALBUS STALLO BUS AMA 1 (1:A00001) via Via Carducci fronte scuole (1:E00980)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1G"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopEndId" : "1:D00920"
+  },
+  {
+    "id" : "1:1:0:03",
+    "desc" : "1 to Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1T/",
+      "M1T/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Stazione ferroviaria - Piazzale",
+    "busStopEndId" : "1:D00230"
+  },
+  {
+    "id" : "1:6S:1:03",
+    "desc" : "6S to L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6S"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica lato monumento SP103",
+    "busStopStartId" : "1:F00130",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:6S:1:04",
+    "desc" : "6S to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Piazza Paganica lato monumento SP103 (1:F00130)",
+    "routeId" : "1:6S",
+    "routeName" : "6S",
+    "trip_route" : [
+      "6S/"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica lato monumento SP103",
+    "busStopStartId" : "1:F00130",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12A:1:04",
+    "desc" : "12A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Piagge Foce Sassa 5. ferm. Capolinea (1:H01360) like trip 1_4766",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Piagge Foce Sassa 5. ferm. Capolinea",
+    "busStopStartId" : "1:H01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12A:1:05",
+    "desc" : "12A to L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Piagge Foce Sassa 5. ferm. Capolinea",
+    "busStopStartId" : "1:H01360",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:7:1:01",
+    "desc" : "7 to Piazza Paganica fronte monumento SP103 (1:F00120)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Area piazza Morelli Filetto",
+    "busStopStartId" : "1:F00380",
+    "busStopEnd" : "Piazza Paganica fronte monumento SP103",
+    "busStopEndId" : "1:F00120"
+  },
+  {
+    "id" : "1:15:1:02",
+    "desc" : "15 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Vallicella Capolinea Arischia Ater (1:I00670) via Via Borsellino fronte Vigili del Fuoco (1:D00720)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopStartId" : "1:I00670",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:15:1:03",
+    "desc" : "15 to Via Vetoio Universita lato Ospedale (1:D00670)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopStartId" : "1:I00670",
+    "busStopEnd" : "Via Vetoio Universita lato Ospedale",
+    "busStopEndId" : "1:D00670"
+  },
+  {
+    "id" : "1:7:1:02",
+    "desc" : "7 to Piazza Paganica lato monumento SP103 (1:F00130)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "M7A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Area piazza Morelli Filetto",
+    "busStopStartId" : "1:F00380",
+    "busStopEnd" : "Piazza Paganica lato monumento SP103",
+    "busStopEndId" : "1:F00130"
+  },
+  {
+    "id" : "1:15:1:04",
+    "desc" : "15 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from str.com. s.vittorino piazza - mancante - (1:I00910)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "str.com. s.vittorino piazza - mancante -",
+    "busStopStartId" : "1:I00910",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:15:1:05",
+    "desc" : "15 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Vallicella Capolinea Arischia Ater (1:I00670) via SS80 lato Agora fronte Via D'Ascanio (1:D00750)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopStartId" : "1:I00670",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:01",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) express",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1R",
+      "1"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:02",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Viale Fiamme Gialle varco3 capolinea GDF (1:D00920) via Viale XXV Aprile lato Via Carabba (1:D00020)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1T"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Viale Fiamme Gialle varco3 capolinea GDF",
+    "busStopStartId" : "1:D00920",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:03",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "M1T",
+      "1T"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:1:1:04",
+    "desc" : "1 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from L'AQUILONE - CENTRO COMMERCIALE (1:D00100) via Viale XXV Aprile lato Via Carabba (1:D00020)",
+    "routeId" : "1:1",
+    "routeName" : "1",
+    "trip_route" : [
+      "1T"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopStartId" : "1:D00100",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16A:0:03",
+    "desc" : "16A to SC Villa di Mezzo Picenze capolinea (1:G00310) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4719",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "16A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "SC Villa di Mezzo Picenze capolinea",
+    "busStopEndId" : "1:G00310"
+  },
+  {
+    "id" : "1:12A:1:01",
+    "desc" : "12A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Piagge Foce Sassa 5. ferm. Capolinea (1:H01360) via SS584 fronte abitazioni Genzano bv. Roio (1:H01470)",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Piagge Foce Sassa 5. ferm. Capolinea",
+    "busStopStartId" : "1:H01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16A:0:04",
+    "desc" : "16A to Map San Gregorio 1. senso orario (1:G01440)",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "M16B"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Piazza Paganica fronte monumento SP103",
+    "busStopStartId" : "1:F00120",
+    "busStopEnd" : "Map San Gregorio 1. senso orario",
+    "busStopEndId" : "1:G01440"
+  },
+  {
+    "id" : "1:12A:1:02",
+    "desc" : "12A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Piagge Foce Sassa 5. ferm. Capolinea (1:H01360) via Via Falcone fronte Reiss Romoli SP33 (1:D00540)",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "M12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Piagge Foce Sassa 5. ferm. Capolinea",
+    "busStopStartId" : "1:H01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:12A:1:03",
+    "desc" : "12A to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000) from Via Piagge Foce Sassa 5. ferm. Capolinea (1:H01360) like trip 1_4764",
+    "routeId" : "1:12A",
+    "routeName" : "12A",
+    "trip_route" : [
+      "12A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Piagge Foce Sassa 5. ferm. Capolinea",
+    "busStopStartId" : "1:H01360",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:7:1:03",
+    "desc" : "7 to TERMINALBUS 0 ARRIVI BUS AMA (1:A00000)",
+    "routeId" : "1:7",
+    "routeName" : "7",
+    "trip_route" : [
+      "7"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Area piazza Morelli Filetto",
+    "busStopStartId" : "1:F00380",
+    "busStopEnd" : "TERMINALBUS 0 ARRIVI BUS AMA",
+    "busStopEndId" : "1:A00000"
+  },
+  {
+    "id" : "1:16A:0:01",
+    "desc" : "16A to SC Villa di Mezzo Picenze capolinea (1:G00310) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via str.comun. S.elia chiesa (1:C00600)",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "16A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "SC Villa di Mezzo Picenze capolinea",
+    "busStopEndId" : "1:G00310"
+  },
+  {
+    "id" : "1:15:1:01",
+    "desc" : "15 to SS80 lato Hotel Amiternum fronte Caserma (1:D00850)",
+    "routeId" : "1:15",
+    "routeName" : "15",
+    "trip_route" : [
+      "15"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Via Vallicella Capolinea Arischia Ater",
+    "busStopStartId" : "1:I00670",
+    "busStopEnd" : "SS80 lato Hotel Amiternum fronte Caserma",
+    "busStopEndId" : "1:D00850"
+  },
+  {
+    "id" : "1:16A:0:02",
+    "desc" : "16A to SC Villa di Mezzo Picenze capolinea (1:G00310) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4721",
+    "routeId" : "1:16A",
+    "routeName" : "16A",
+    "trip_route" : [
+      "16A"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "SC Villa di Mezzo Picenze capolinea",
+    "busStopEndId" : "1:G00310"
+  },
+  {
+    "id" : "1:16:0:06",
+    "desc" : "16 to Stazione Fossa Necropoli fronte Map (1:G01480) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Viale Caldora fronte Collemaggio (1:A00160)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Stazione Fossa Necropoli fronte Map",
+    "busStopEndId" : "1:G01480"
+  },
+  {
+    "id" : "1:2:0:02",
+    "desc" : "2 to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4471",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:2:0:01",
+    "desc" : "2 to L'AQUILONE - CENTRO COMMERCIALE (1:D00100)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "L'AQUILONE - CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00100"
+  },
+  {
+    "id" : "1:10:0:02",
+    "desc" : "10 to bagno grande - piazza (1:G01160) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via s.p. 35 bis. Lilletta - dir. Bagno Grand (1:G01210)",
+    "routeId" : "1:10",
+    "routeName" : "10",
+    "trip_route" : [
+      "10"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "bagno grande - piazza",
+    "busStopEndId" : "1:G01160"
+  },
+  {
+    "id" : "1:2:0:04",
+    "desc" : "2 to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Via Falcone fronte Reiss Romoli SP33 (1:D00540)",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2G"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:10:0:01",
+    "desc" : "10 to bagno grande - piazza (1:G01160) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via c.da lilletta - cominio - dir. Bagno gra (1:G01510)",
+    "routeId" : "1:10",
+    "routeName" : "10",
+    "trip_route" : [
+      "M10"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "bagno grande - piazza",
+    "busStopEndId" : "1:G01160"
+  },
+  {
+    "id" : "1:5:0:01",
+    "desc" : "5 to Via Valle d' Aosta Marche scuole Gignano (1:B01100)",
+    "routeId" : "1:5",
+    "routeName" : "5",
+    "trip_route" : [
+      "M5"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Valle d' Aosta Marche scuole Gignano",
+    "busStopEndId" : "1:B01100"
+  },
+  {
+    "id" : "1:2:0:03",
+    "desc" : "2 to GLOBO CENTER-CENTRO COMMERCIALE (1:D00130) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) like trip 1_4482",
+    "routeId" : "1:2",
+    "routeName" : "2",
+    "trip_route" : [
+      "2"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "GLOBO CENTER-CENTRO COMMERCIALE",
+    "busStopEndId" : "1:D00130"
+  },
+  {
+    "id" : "1:16:0:02",
+    "desc" : "16 to MAP Fossa - Necropoli Vestina (1:G01360) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) express",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "MAP Fossa - Necropoli Vestina",
+    "busStopEndId" : "1:G01360"
+  },
+  {
+    "id" : "1:16:0:03",
+    "desc" : "16 to MAP Fossa - Necropoli Vestina (1:G01360) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Via S.Nicola Monticchio direzione Ater (1:G00500)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "MAP Fossa - Necropoli Vestina",
+    "busStopEndId" : "1:G01360"
+  },
+  {
+    "id" : "1:16:0:04",
+    "desc" : "16 to Stazione Fossa Necropoli lato Map (1:G01350)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Stazione Fossa Necropoli lato Map",
+    "busStopEndId" : "1:G01350"
+  },
+  {
+    "id" : "1:16:0:05",
+    "desc" : "16 to Via Di Valle dir. Cavalletto Monticchio (1:G00530)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16B"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Via Di Valle dir. Cavalletto Monticchio",
+    "busStopEndId" : "1:G00530"
+  },
+  {
+    "id" : "1:16:0:01",
+    "desc" : "16 to Stazione Fossa Necropoli fronte Map (1:G01480) from TERMINALBUS STALLO BUS AMA 2 (1:A00002) via Via Della Crocetta - lato edicola (1:B00190)",
+    "routeId" : "1:16",
+    "routeName" : "16",
+    "trip_route" : [
+      "16"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Stazione Fossa Necropoli fronte Map",
+    "busStopEndId" : "1:G01480"
+  },
+  {
+    "id" : "1:8:0:01",
+    "desc" : "8 to Fontegrossa Capolinea (1:B00850)",
+    "routeId" : "1:8",
+    "routeName" : "8",
+    "trip_route" : [
+      "M8"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 2",
+    "busStopStartId" : "1:A00002",
+    "busStopEnd" : "Fontegrossa Capolinea",
+    "busStopEndId" : "1:B00850"
+  },
+  {
+    "id" : "1:19:0:03",
+    "desc" : "19 to Via Vetoio Universita lato Ospedale (1:D00670) from TERMINALBUS STALLO BUS AMA 1 (1:A00001) via Via Farroni Variante Pile lato Carabba (1:D01090)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Via Vetoio Universita lato Ospedale",
+    "busStopEndId" : "1:D00670"
+  },
+  {
+    "id" : "1:19:0:02",
+    "desc" : "19 to Via Vetoio Universita lato Ospedale (1:D00670) from Stazione ferroviaria - Piazzale (1:D00230)",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "19G"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "Stazione ferroviaria - Piazzale",
+    "busStopStartId" : "1:D00230",
+    "busStopEnd" : "Via Vetoio Universita lato Ospedale",
+    "busStopEndId" : "1:D00670"
+  },
+  {
+    "id" : "1:19:0:01",
+    "desc" : "19 to Via Vetoio Universita lato Ospedale (1:D00670) from TERMINALBUS STALLO BUS AMA 1 (1:A00001) express",
+    "routeId" : "1:19",
+    "routeName" : "19",
+    "trip_route" : [
+      "M19",
+      "19"
+    ],
+    "trips_list" : [],
+    "busStopStart" : "TERMINALBUS STALLO BUS AMA 1",
+    "busStopStartId" : "1:A00001",
+    "busStopEnd" : "Via Vetoio Universita lato Ospedale",
+    "busStopEndId" : "1:D00670"
+  }
+]

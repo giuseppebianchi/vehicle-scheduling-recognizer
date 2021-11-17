@@ -1,0 +1,23 @@
+{
+  "name": "vehicle-scheduling-gps-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app NODE_ENV=production",
+    "dev": "nodemon app NODE_ENV=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giuseppe Bianchi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "get-json": "^1.0.1",
+    "gtfs": "^3.1.4",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

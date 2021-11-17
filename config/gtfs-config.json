@@ -1,0 +1,8 @@
+{
+  "agencies": [
+    {
+      "path": "./data/export_gtfs_AMA_2020.zip"
+    }
+  ],
+  "sqlitePath": "/tmp/gtfs"
+}
