@@ -275,7 +275,7 @@ async function startRecognizing(){
             }
 
 
-            // CHECK DEPARTURE STOP PROXIMITY
+            // CHECK STOP PROXIMITY
             // La ricerca viene ristretta alle sole fermate che compaiono come capolinea di qualche pattern
             // (Il riconoscimento parte da un capolinea quindi è inutile trovare una fermata intermedia)
             // Si usa "filter" al posto di "find" perchè più fermate possono trovarsi in prossimità della posizione del bus
