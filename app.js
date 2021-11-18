@@ -259,7 +259,10 @@ async function startRecognizing(){
                 // Si inizia a trovare un nuovo capolinea di partenza
                 bus_trips[current_bus].isTracked = false;
             }
-        } else {
+        }
+
+        // DETECT DEPARTURE STOP
+        if (!bus_trips[current_bus].isTracked && !bus_trips[current_bus].waitForLeave) {
             // Non è ancora attivo il processo di riconoscimento
             // -> RILEVARE UNA FERMATA DI PARTENZA
 
@@ -286,6 +289,7 @@ async function startRecognizing(){
                     return stop
                 }
             })
+            console.log(current_bus, gps_message.datetime, i)
 
             // CHECK STOPS AROUND BUS
             if(stops_around_bus.length == 0) {
