@@ -10,7 +10,7 @@ const { checkDistance, checkDeparture, checkArrival,
 } = require("./functions/bus")
 const { getGTFSPatterns, getPatternDetails, getTripStoptimes, getPatternTrips } = require("./functions/api")
 
-const { printResults, speedBasedDistance } = require("./functions/functions")
+const { printResults, speedBasedDistance, checkGPS } = require("./functions/functions")
 
 //CONFIG ENV
 dotenv.config({path: "./config/config.env"});
@@ -97,6 +97,12 @@ async function startRecognizing(){
         // La proprietà "waitForLeave", se TRUE, indica che
         // il bus si trova in un capolinea ma non è ancora partito
         if(bus_trips[current_bus].waitForLeave){
+            // CHECK VALID GPS
+            // Un valore non valido GPS potrebbe erroneamente rendere TRUE questa condizione
+            if(!checkGPS(gps_message)){
+                // In attesa di un segnale GPS valido
+                continue
+            }
             // CHECK DEPARTURE FROM TERMINAL
             // controllo se l'autobus ha lasciato il capolinea
             if(!checkDistance(gps_message, patterns_details[Object.keys(bus_trips[current_bus].patterns)[0]].stops[0], LEAVE_TERMINAL_DISTANCE)){

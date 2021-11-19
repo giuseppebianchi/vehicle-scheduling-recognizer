@@ -61,10 +61,29 @@ function speedBasedDistance(speed){
     // the higher speed a vehicle is moving the larger the distance from a stop is
     return (MIN_DISTANCE + speed*secondsToHours(POLLING_TIME)).toFixed(3)
 }
+function checkGPS(gps){
+    // EXAMPLE INVALID GPS
+    /*
+    "latitude": -0.0000016666666624587378,
+    "longitude": -0.0000016666666624587378,
+    "speed": 6553,
+    */
+    if(parseInt(gps.latitude) == 0 || Math.abs(gps.latitude) > 90){
+        return false
+    }
+    if(parseInt(gps.longitude) == 0 || Math.abs(gps.longitude) > 180){
+        return false
+    }
+    if(parseInt(gps.speed) > 500){
+        return false
+    }
+    return true;
+}
 
 module.exports = {
     clone,
     arraysEqual,
     printResults,
-    speedBasedDistance
+    speedBasedDistance,
+    checkGPS
 };
