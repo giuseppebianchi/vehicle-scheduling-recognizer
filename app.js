@@ -4,13 +4,13 @@ const { PerformanceObserver, performance } = require('perf_hooks');
 const https = require('https')
 const dotenv = require("dotenv");
 
-const { MAX_DISTANCE, LIFETIME_VALUE, MIN_SPEED, BUS_IDENTIFIER_FIELD, URL } = require("./config/params");
+const { MAX_DISTANCE, LIFETIME, MIN_SPEED, BUS_IDENTIFIER_FIELD, URL, LEAVE_TERMINAL_DISTANCE } = require("./config/params");
 const { checkDistance, checkDeparture, checkArrival,
         getBusPositions, getDepartureStopsAndPatterns
 } = require("./functions/bus")
 const { getGTFSPatterns, getPatternDetails, getTripStoptimes, getPatternTrips } = require("./functions/api")
 
-const { printResults } = require("./functions/functions")
+const { printResults, speedBasedDistance } = require("./functions/functions")
 
 //CONFIG ENV
 dotenv.config({path: "./config/config.env"});
@@ -36,7 +36,7 @@ async function startRecognizing(){
     console.log("GPS Positions Ready...");
 
     const t1 = performance.now()
-    console.log((t1 - t0)/1000 + " seconds.")
+    console.log(((t1 - t0)/1000).toFixed(2) + " seconds.")
 
     console.log("Start Recognizing...");
 
@@ -50,7 +50,7 @@ async function startRecognizing(){
         if(i == BUS_POSITIONS.length-1){
             //CALCOLO_PERFORMANCE
             const t2 = performance.now()
-            console.log("END RECOGNIZING: " + (t2 - t1)/1000 + " seconds.")
+            console.log("END RECOGNIZING: " + ((t2 - t1)/1000).toFixed(2) + " seconds.")
 
             //PRINT VEHICLE SCHEDULING
             printResults(bus_trips)
@@ -99,7 +99,7 @@ async function startRecognizing(){
         if(bus_trips[current_bus].waitForLeave){
             // CHECK DEPARTURE FROM TERMINAL
             // controllo se l'autobus ha lasciato il capolinea
-            if(!checkDistance(gps_message, patterns_details[Object.keys(bus_trips[current_bus].patterns)[0]].stops[0], MAX_DISTANCE)){
+            if(!checkDistance(gps_message, patterns_details[Object.keys(bus_trips[current_bus].patterns)[0]].stops[0], LEAVE_TERMINAL_DISTANCE)){
                 // L'autobus ha lasciato il capolinea quindi
                 // si inizia a riconoscere il percorso e si memorizza l'orario corrente
                 // Si considera l'orario in cui lascia il capolinea e non quello di arrivo perchè
@@ -120,6 +120,7 @@ async function startRecognizing(){
             //FOR EACH FOUND PATTERN
             for(pat in bus_trips[current_bus].patterns){
                 //CHECK DISTANCE BETWEEN BUS POSITION AND CURRENT PATTERN'S NEXT STOP
+
                 if(checkDistance(gps_message, patterns_details[pat].stops[bus_trips[current_bus].patterns[pat].stop_counter], MAX_DISTANCE)){
                     // L'autobus si trova nei pressi della prossima fermata del pattern corrente
                     // CHECK IF ARRIVAL STOP
@@ -168,13 +169,13 @@ async function startRecognizing(){
 
                         // RESET LIFETIME
                         // La fermata è stata trovata quindi si rinizializza il valore LIFETIME per trovare la successiva
-                        bus_trips[current_bus].patterns[pat].lifetime = LIFETIME_VALUE;
+                        bus_trips[current_bus].patterns[pat].lifetime = LIFETIME;
 
                         // UPDATE STOP COUNTER
                         bus_trips[current_bus].patterns[pat].stop_counter++;
                     }
                 }else{
-                    // NO STOP FOUND AROUND BUS
+                    // NO PATTERNS NEXT STOP FOUND AROUND BUS
                     // L'autobus non si trova nei pressi di una fermata del pattern, ma
                     // prima di decrementare il valore di LIFETIME si controlla la SPEED
                     // - viene decrementata solo se viaggia a velocità superiori a MIN_SPEED
@@ -284,12 +285,11 @@ async function startRecognizing(){
             // Si usa "filter" al posto di "find" perchè più fermate possono trovarsi in prossimità della posizione del bus
             // (i.e. when they are in front of each other or terminal station)
             const stops_around_bus = DEPARTURE_STOPS.filter((stop, index_stops) => {
-                if(checkDistance(gps_message, stop, MAX_DISTANCE)){
-                    //bus is close to stop
+                if(checkDistance(gps_message, stop, speedBasedDistance(gps_message.speed))){
+                    // bus is close to stop
                     return stop
                 }
             })
-            console.log(current_bus, gps_message.datetime, i)
 
             // CHECK STOPS AROUND BUS
             if(stops_around_bus.length == 0) {
@@ -327,7 +327,7 @@ async function startRecognizing(){
                 // Si richiedono le informazioni dettagliate sui pattern che si andranno ad analizzare da analizzare
                 for(const pat of departure_patterns){
                     pat.stop_counter = 1; // Numero di sequenza della fermata successiva attesa
-                    pat.lifetime = LIFETIME_VALUE; // Numero di tentativi per riconoscere una fermata prima di scartare il pattern
+                    pat.lifetime = LIFETIME; // Numero di tentativi per riconoscere una fermata prima di scartare il pattern
 
                     // CHECK EXISTING PATTERN DETAILS
                     // Per risparmiare tempo e chiamate API si sfruttando informazioni richieste in precedenti iterazioni

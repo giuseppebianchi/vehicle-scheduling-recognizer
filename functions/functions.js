@@ -1,3 +1,5 @@
+const { MIN_DISTANCE, POLLING_TIME } = require("../config/params")
+
 function clone(obj) {
     if (null == obj || "object" != typeof obj) return obj;
     var copy = obj.constructor();
@@ -26,12 +28,12 @@ function printResults(bus_trips){
     let shift_counter = 0;
     for(const bus in bus_trips){
         console.log(" ")
-        console.log("-------------------------" + "SHIFT-" + shift_counter + ", BUS: " + bus + "-------------------------")
+        console.log("------------------------- " + "SHIFT-" + shift_counter + ", BUS: " + bus + ", " + Object.keys(bus_trips[bus].trips).length + " -------------------------")
         if(Object.keys(bus_trips[bus].trips).length){
             for(const t in bus_trips[bus].trips){
                 const min = bus_trips[bus].trips[t].gps_message_time.getMinutes()
                 const gps_m = min < 10 ? "0" + min.toString() : min
-                const bus_output = t + ", " + bus_trips[bus].trips[t].tripShortName + ", " + bus_trips[bus].trips[t].gps_message_time.getHours() + ":" + gps_m + ", " + bus_trips[bus].trips[t].stoptime + ", " + bus_trips[bus].trips[t].desc + ", " + bus_trips[bus].trips[t].pattern_id + "\n";
+                const bus_output = t + ", " + bus_trips[bus].trips[t].tripShortName + ", " + bus_trips[bus].trips[t].gps_message_time.getHours() + ":" + gps_m + ", " + bus_trips[bus].trips[t].stoptime + ", " + bus_trips[bus].trips[t].desc + ", " + bus_trips[bus].trips[t].pattern_id + ", " + bus_trips[bus].trips[t].index + "\n";
                 console.log(bus_output)
                 csv += bus_output;
             }
@@ -52,9 +54,17 @@ function saveCSV(csv){
 function saveJSON(csv){
     //console.log(csv)
 }
+function secondsToHours(sec){
+    return sec/3600
+}
+function speedBasedDistance(speed){
+    // the higher speed a vehicle is moving the larger the distance from a stop is
+    return (MIN_DISTANCE + speed*secondsToHours(POLLING_TIME)).toFixed(3)
+}
 
 module.exports = {
     clone,
     arraysEqual,
-    printResults
+    printResults,
+    speedBasedDistance
 };
