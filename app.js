@@ -67,7 +67,7 @@ async function startRecognizing(){
         // l'identificativo del bus corrispondente al messaggio gps
         const current_bus = gps_message[BUS_IDENTIFIER_FIELD]
 
-        // PRINT BUS POSITION
+        // CHECK BUS POSITION AND MESSAGE DATETIME
         /*if(current_bus == "853678" && i > 50000){
             console.log(stops_around_bus, gps_message.latitude +","+ gps_message.longitude, gps_message.datetime.$date, i)
         }*/
