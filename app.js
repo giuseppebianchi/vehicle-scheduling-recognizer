@@ -67,11 +67,6 @@ async function startRecognizing(){
         // l'identificativo del bus corrispondente al messaggio gps
         const current_bus = gps_message[BUS_IDENTIFIER_FIELD]
 
-        // CHECK BUS POSITION AND MESSAGE DATETIME
-        /*if(current_bus == "853678" && i > 50000){
-            console.log(stops_around_bus, gps_message.latitude +","+ gps_message.longitude, gps_message.datetime.$date, i)
-        }*/
-
         // CHECK IF FOUND NEW BUS
         // controllo se il bus corrente è già presente nella lista dei risultati
         if(bus_trips.hasOwnProperty(current_bus)){
@@ -92,11 +87,18 @@ async function startRecognizing(){
             bus_trips[current_bus] = {
                 isTracked: false,
                 waitForLeave: false,
-                trips: {}
+                trips: {},
+                current_index: i
             }
         }
 
         /******************************/
+
+        // CHECK BUS POSITION AND MESSAGE DATETIME
+        /*if(current_bus == "853678" && i > 34000 && i < 35164){
+            console.log(bus_trips[current_bus].patterns)
+            console.log(bus_trips[current_bus].waitForLeave, bus_trips[current_bus].isTracked + " - " + gps_message.latitude +","+ gps_message.longitude, gps_message.datetime.$date, gps_message.speed, i)
+        }*/
 
         // CHECK WAIT-FOR-LEAVE
         // La proprietà "waitForLeave", se TRUE, indica che
@@ -132,7 +134,7 @@ async function startRecognizing(){
             for(pat in bus_trips[current_bus].patterns){
                 //CHECK DISTANCE BETWEEN BUS POSITION AND CURRENT PATTERN'S NEXT STOP
 
-                if(checkDistance(gps_message, patterns_details[pat].stops[bus_trips[current_bus].patterns[pat].stop_counter], MAX_DISTANCE)){
+                if(checkDistance(gps_message, patterns_details[pat].stops[bus_trips[current_bus].patterns[pat].stop_counter], speedBasedDistance(gps_message.speed))){
                     // L'autobus si trova nei pressi della prossima fermata del pattern corrente
                     // CHECK IF ARRIVAL STOP
                     // Verifica se si tratta dell'ultima fermata
@@ -191,7 +193,7 @@ async function startRecognizing(){
                     // prima di decrementare il valore di LIFETIME si controlla la SPEED
                     // - viene decrementata solo se viaggia a velocità superiori a MIN_SPEED
                     // MIN_SPEED la velocità con cui il veicolo si considera fermo, nel traffico, parcheggi, deposito
-                    if(gps_message.speed > MIN_SPEED){
+                    if(gps_message.speed >= MIN_SPEED){
                         bus_trips[current_bus].patterns[pat].lifetime--;
                         // CHECK LIFETIME
                         if(bus_trips[current_bus].patterns[pat].lifetime == 0){
@@ -260,8 +262,9 @@ async function startRecognizing(){
                     // di quelli già riconosciuti e saltati come "temporanei"
                     // Quindi è corretto RIPRENDERE IL RICONOSCIMENTO della trip successiva
                     // DAL CAPOLINEA DI ARRIVO dell'ultima trip riconosciuta e salvata
-                    if(i != rollback_index){
+                    if(rollback_index && i > rollback_index){
                         i = rollback_index
+                        bus_trips[current_bus].current_index = rollback_index;
                     }
                 }
 
@@ -296,7 +299,7 @@ async function startRecognizing(){
             // Si usa "filter" al posto di "find" perchè più fermate possono trovarsi in prossimità della posizione del bus
             // (i.e. when they are in front of each other or terminal station)
             const stops_around_bus = DEPARTURE_STOPS.filter((stop, index_stops) => {
-                if(checkDistance(gps_message, stop, speedBasedDistance(gps_message.speed))){
+                if(checkDistance(gps_message, stop, MAX_DISTANCE)){
                     // bus is close to stop
                     return stop
                 }
@@ -332,7 +335,6 @@ async function startRecognizing(){
                 // per salvare l'orario di partenza, da memorizzare poi con quello vero del GTFS
 
                 bus_trips[current_bus].temp = {}
-                bus_trips[current_bus].current_index = i // indica quando il pattern è stato trovato (ma non ancora riconosciuto)
 
                 // CREATE PATTERNS LIST
                 // Si richiedono le informazioni dettagliate sui pattern che si andranno ad analizzare da analizzare
