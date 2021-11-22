@@ -26,9 +26,9 @@ const checkTimes = (gpsDatetime, scheduledDeparture) => {
     if(h1 == h2) {
         return Math.abs(m1 - m2) < TIME_OFFSET
     }else if(h1 > h2){
-        return Math.abs((m1+60) - m2) < TIME_OFFSET
+        return h1-1 == h2 ? Math.abs((m1+60) - m2) < TIME_OFFSET : false;
     }else{
-        return Math.abs(m1 - (m2+60)) < TIME_OFFSET
+        return h2-1 == h1 ? Math.abs(m1 - (m2+60)) < TIME_OFFSET : false;
     }
 }
 

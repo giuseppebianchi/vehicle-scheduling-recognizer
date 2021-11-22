@@ -1,5 +1,5 @@
 //max distance to find bus stop around a bus position
-const MAX_DISTANCE = 0.2; // km
+const MAX_DISTANCE = 0.1; // km
 const MIN_DISTANCE = 0.1; // km // when the vehicle is not moving
 
 const LEAVE_TERMINAL_DISTANCE = 0.2; // km // this value should be different for each terminal (departure stop)
@@ -26,7 +26,7 @@ const POLLING_TIME = 5 // seconds
 const URL = {
     stops: "./data/stops.json",
     patterns: "./data/patterns.json",
-    gps_export: "./data/gps_23112020.json",
+    gps_export: "./data/gps_04122020.json",
     //otp: "http://trasporti.opendatalaquila.it/infomobility",
     otp: "http://localhost:8080"
 }

@@ -29,4 +29,8 @@ yarn-error.log*
 
 # data
 ./data/export_gtfs_AMA_2020.zip
+./data/gps_24112020.json
+./data/gps_04122020.json
+./data/gps_09122020.json
+
 

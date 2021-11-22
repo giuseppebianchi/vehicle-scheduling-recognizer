@@ -24,7 +24,7 @@ function arraysEqual(a, b) {
 function printResults(bus_trips){
     console.log(" ")
     console.log("*********** RESULT ***********")
-    let csv = "trips, tripShortName, positionTime, stoptime, descrizione, pattern\n"
+    let csv = "trips, tripShortName, leaveTime, departureTime, arrivalTime, descrizione, pattern\n"
     let shift_counter = 0;
     for(const bus in bus_trips){
         console.log(" ")
@@ -33,7 +33,10 @@ function printResults(bus_trips){
             for(const t in bus_trips[bus].trips){
                 const min = bus_trips[bus].trips[t].gps_message_time.getMinutes()
                 const gps_m = min < 10 ? "0" + min.toString() : min
-                const bus_output = t + ", " + bus_trips[bus].trips[t].tripShortName + ", " + bus_trips[bus].trips[t].gps_message_time.getHours() + ":" + gps_m + ", " + bus_trips[bus].trips[t].stoptime + ", " + bus_trips[bus].trips[t].desc + ", " + bus_trips[bus].trips[t].pattern_id + ", " + bus_trips[bus].trips[t].index + "\n";
+                const gtfsArrivalTime = new Date(bus_trips[bus].trips[t].gtfsArrivalTime*1000);
+                const amin = gtfsArrivalTime.getUTCMinutes()
+                const arrivalTime = `${gtfsArrivalTime.getUTCHours()}:${amin < 10 ? "0" + amin.toString() : amin}`
+                const bus_output = t + ", " + bus_trips[bus].trips[t].tripShortName + ", " + bus_trips[bus].trips[t].gps_message_time.getHours() + ":" + gps_m + ", " + bus_trips[bus].trips[t].stoptime + ", " + arrivalTime + ", " + bus_trips[bus].trips[t].desc + ", " + bus_trips[bus].trips[t].pattern_id + ", " + bus_trips[bus].trips[t].index + "\n";
                 console.log(bus_output)
                 csv += bus_output;
             }
